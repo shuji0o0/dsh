@@ -1,0 +1,6 @@
+# dsh bundle layer: mount the plugin-scaffold plugin. The package root export
+# (index.js) registers the `plugin_scaffold` model tool; the `./client` export
+# (client.js) injects the sidebar entry and overlay.
+- insert:
+    - id: plugin-scaffold
+      name: '@shuji0o0/plugin-scaffold'
